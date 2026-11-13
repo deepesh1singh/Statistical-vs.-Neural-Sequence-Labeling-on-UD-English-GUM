@@ -1,0 +1,14 @@
+# Package versions from the Colab runtime that produced the reported results.
+# The +cu130 torch build is served from the PyTorch index, not PyPI:
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+numpy==2.4.6
+pandas==2.2.3
+matplotlib==3.10.0
+torch==2.14.1+cu130
+datasets==4.8.5
+gensim==4.4.0
+pyarrow==23.0.1
+tqdm==4.67.3
+ipython==7.34.0
+jinja2==3.1.6
